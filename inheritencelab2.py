@@ -15,7 +15,7 @@ class derived1(Student):
         self.marks=[]
         self.total=0
         for i in range(5):
-            score=float(input("Enter marks:"))
+            score=float(input(f"Enter subject{i+1} marks:"))
             self.marks.append(score)
             self.total+=score
         self.percentage=((self.total/(500))*100)

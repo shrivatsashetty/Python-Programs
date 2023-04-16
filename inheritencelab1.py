@@ -16,7 +16,7 @@ class PGSTUDENT(STUDENT):
         self.stipend=float(input("Enter stipend:"))
         
     def displayinfo(self):
-        STUDENT.displayinfo(self) # super keyword  is used to call parent class
+        STUDENT.displayinfo(self) # super.displayinfo()  can also be used to call parent class
         print(f"semester of study:{self.sem}")
         print(f"Anual fees :{self.fees}")
         print(f"stipend earned:{self.stipend}")
