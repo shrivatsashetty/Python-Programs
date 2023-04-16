@@ -41,11 +41,12 @@ class derived2(derived1):
 def printinfo():
     for field in d:
         print(field,":",d[field])
-# while True:
-print(" 1.Addinfo \n 2.Showinfo \n 3.Exit\n")
-ch=int(input("Enter a Choice"))
-if ch==1:
-    std=derived2()
-elif ch==2:
-    printinfo()
-#bdhbdh
+while True:
+    print(" 1.Data Entry \n 2.Showinfo \n 3.Exit\n")
+    ch=int(input("Enter a Choice:"))
+    if ch==1:
+        std=derived2()
+    elif ch==2:
+        printinfo()
+    elif ch==3:
+        break
