@@ -48,3 +48,4 @@ if ch==1:
     std=derived2()
 elif ch==2:
     printinfo()
+#bdhbdh
