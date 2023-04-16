@@ -12,13 +12,29 @@ class Employee:
         print(f"Salary = {self.salary}")
     def promotion(self):
         self.salary*=self.increment
+        print(f"salary of {self.firstname} is {self.salary}")
 
 class Developer(Employee):
     increment=2.5
     def promotion(self):
         self.salary*=self.increment
+        print(f"salary of {self.firstname} is {self.salary}")
 
 class Manager(Employee):
     increment=3.5
     def promotion(self):
         self.salary*=self.increment
+        print(f"Salary of{self.firstname} is {self.salary}")
+
+e1=Employee()
+d1=Developer()
+m1=Manager()
+
+e1.displayinfo()
+e1.promotion()
+
+d1.displayinfo()
+d1.promotion()
+
+m1.displayinfo()
+m1.promotion()
