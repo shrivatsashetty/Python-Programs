@@ -13,7 +13,7 @@ class employee:
 
 naveen=employee() #indicates,variable "naveen" is an object coming under employee class 
 naveen.name="naveen"
-naveen.salary=float(input("How much would u pay naveen anually:"))
+naveen.salary=float(input("How much would u salary naveen anually:"))
 naveen.native="Mangaluru"
 print("the employees name is:",naveen.name)
 print("naveens anual package is",naveen.salary)
