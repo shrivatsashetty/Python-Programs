@@ -10,13 +10,13 @@ class STUDENT:
 
 class PGSTUDENT(STUDENT):
     def __init__(self):
-        STUDENT.__init__(self) #we are calling __init__ method of parent class STUDENT
+        STUDENT.__init__(self) #we are calling __init__ method of parent class STUDENT,we can also use 'super'
         self.sem=int(input("Enter Semester of study:"))
         self.fees=float(input("Enter anual fees:"))
         self.stipend=float(input("Enter stipend:"))
         
     def displayinfo(self):
-        super.displayinfo(self) # super is used to call parent class
+        super.displayinfo(self) # super keyword  is used to call parent class
         print(f"semester of study:{self.sem}")
         print(f"Anual fees :{self.fees}")
         print(f"stipend earned:{self.stipend}")
