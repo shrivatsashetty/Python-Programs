@@ -10,7 +10,7 @@ class STUDENT:
 
 class PGSTUDENT(STUDENT):
     def __init__(self):
-        STUDENT.__init__(self) #we are calling __init__ method of parent class STUDENT,we can also use 'super'
+        STUDENT.__init__(self) #we are calling __init__ method of parent class STUDENT to update it,we can also use 'super'
         self.sem=int(input("Enter Semester of study:"))
         self.fees=float(input("Enter anual fees:"))
         self.stipend=float(input("Enter stipend:"))
