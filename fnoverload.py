@@ -19,4 +19,5 @@ p1=Person()
 p1.Hello()
 p1.Hello('GouthamAS')   
 p1.Hello('GouthamAS',25)
+p1.Hello(age=25,name='GauthamAS') # o/p is Hello GauthamAS age:25
 
