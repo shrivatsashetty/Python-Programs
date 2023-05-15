@@ -1,4 +1,4 @@
-# function withoout args
+# function without args
 def greet():  #declaring a function
     name=input("Enter your name: ")
     print("hi",name)
