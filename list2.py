@@ -8,5 +8,5 @@ wild_animals = ['tiger', 'fox','bear']
 animals.extend(wild_animals)
 animals.append('Parrot')
 
-print('Updated animals list: ', animals)
+print('Updated animals list: ', animals)# ['cat', 'dog', 'rabbit', 'tiger', 'fox', 'bear', 'Parrot']
 print(animals.index('fox'))# 4
