@@ -5,7 +5,7 @@ animals = ['cat', 'dog', 'rabbit']
 wild_animals = ['tiger', 'fox','bear']
 
 # appending wild_animals list to animals
-animals.append(wild_animals)
+animals.extend(wild_animals)
 animals.append('Parrot')
 
 print('Updated animals list: ', animals)
