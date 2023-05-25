@@ -1,4 +1,4 @@
-list1=[2,4,"shri",'%','&',"vk@18"]
+list1=[2,4,"shri",'%','&',"vk@18",True]
 print(list1)
 print(list1[2]) #first op idexing
 print(list1[-5]) #first op indexing
