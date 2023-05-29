@@ -43,11 +43,19 @@ try:
         connection_object.commit()
         print("Entry deleted")
     
+    elif(int(choice)==3):
+        employee_data=(2,'Bharath', 32, 'bharath@gmail.com')
+        cursor_object.execute(insert_query,employee_data)
+        connection_object.commit()
+        cursor_object.execute(select_query)
+        updated_result=cursor_object.fetchall()
+        print("Insertion sucessfull")
+        for entries in updated_result:
+            print(entries)
+
     else:
         pass
-        
-
-
+    
     cursor_object.close()
     connection_object.close()
 
