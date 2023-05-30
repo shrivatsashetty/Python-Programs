@@ -39,7 +39,8 @@ try:
     elif(int(choice)==2):
         delete_query="delete from infosys where id = %s ; "
         emp_id=1
-        cursor_object.execute(delete_query,(emp_id,)) # values must be passed as tuple only
+        cursor_object.execute(delete_query,(emp_id,)) 
+        # values must be passed as tuple only, here (emp_id,) is a tuple with single element
         connection_object.commit()
         print("Entry deleted")
     
