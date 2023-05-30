@@ -1,7 +1,7 @@
 import mysql.connector
 
 try:
-    connection_object = mysql.connector.connect(user='SIRI',password='Shrivatsa@307',database='EMPLOYEES',auth_plugin="mysql_native_password")
+    connection_object = mysql.connector.connect(user='siri',password='Shrivatsa@307',database='EMPLOYEES',auth_plugin="mysql_native_password")
 
     cursor_object = connection_object.cursor()
 
