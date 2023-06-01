@@ -29,6 +29,7 @@ try:
         updated_age=30
         updated_email="harish@example.com"
         emp_id=1
+        # updated_data=(30,"harish@example.com",1)
         cursor_object.execute(update_query,(updated_age,updated_email,emp_id))
         connection_object.commit()
         print("update operation sucessfull")

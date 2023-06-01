@@ -1,0 +1,6 @@
+This is my file 3 
+for demonstrating 
+read-line  method in python
+and it reads 
+line by line 
+
