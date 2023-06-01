@@ -7,20 +7,22 @@ try:
 
     create_table_query = """CREATE TABLE IF NOT EXISTS infosys (id INT PRIMARY KEY, name VARCHAR (40), age INT, email VARCHAR(50))"""
     cursor_object.execute(create_table_query)
+    connection_object.commit()
 
     insert_query=""" INSERT INTO infosys (id, name, age, email) VALUES (%s ,%s, %s, %s) """
     employee_data=(1,'Harish', 27, 'harish@gmail.com')
     cursor_object.execute(insert_query,employee_data)
-
     connection_object.commit()
 
     select_query=""" SELECT * FROM  infosys  """
 
     cursor_object.execute(select_query)
     result=cursor_object.fetchall()
+    connection_object.commit()
     for entries in result:
         print(entries)
 
+    print("1.UPDATE\n2.DELETE\n3.INSERT")
     choice=input("Enter choice:")
     if (int(choice) == 1):
         update_query="""UPDATE infosys SET age = %s, email=%s WHERE id=%s """
@@ -37,7 +39,7 @@ try:
             print(entries)
     
     elif(int(choice)==2):
-        delete_query="delete from infosys where id = %s ; "
+        delete_query="delete from infosys where id = %s ; " # even queries written in lowercase will work
         emp_id=1
         cursor_object.execute(delete_query,(emp_id,)) 
         # values must be passed as tuple only, here (emp_id,) is a tuple with single element
@@ -62,3 +64,4 @@ try:
 
 except Exception as e:
     print("Error",e)
+#
