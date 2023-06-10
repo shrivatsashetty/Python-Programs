@@ -1,7 +1,10 @@
-x = 5
+n = input("Enter a number:")
 try:
-    assert x == 10, "x must be equal to 10"
+    assert float(n) > 10, " Enter a number greater than 10"
+    print("Allright\nyour value :",n)
 except Exception as e:
-    print(e)
+    print("Error:",e)
 
 print("========End=========")    
+
+

@@ -7,3 +7,7 @@ print(marks)
 
 marks.update({"Biology":89})
 print(marks)
+
+
+for key,value in marks.items():
+    print(f"Score in {key} is {value}") 
