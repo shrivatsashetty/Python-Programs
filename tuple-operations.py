@@ -8,3 +8,10 @@ except Exception as e:
     print(e)
     print("Tuple is immutable")
 collection=tuple([3.14,'Hello','namaste',[1,2,3],(3,)])
+
+# iterating over ordered pairs in nested tuple
+
+nest = ((1,2),(3,4),(4,5),(5,6))
+
+for x,y in nest:
+    print(x,"maps to ",y)

@@ -13,3 +13,4 @@ while True:
     elif chc==3:
         print(type(tup1))
     elif chc==4:
+        break
