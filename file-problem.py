@@ -18,11 +18,13 @@ print("from 3rd line onwards")
 data = f.readlines()
 print("lines to be read:",data)
 for lines in data:
-    print(lines)
+    print(lines.strip())
 
 
 f.seek(0,0)
 data = f.readlines()
 print("From 3rd line to 7th\n",data[:7])
 for lines in data[2:7]:
-    print(lines) 
+    print(lines.strip()) 
+
+f.close()
