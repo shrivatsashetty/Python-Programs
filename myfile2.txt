@@ -1,1 +1,8 @@
- hello this is written using write mode
+1.This is first line
+2.Water Water everywhere
+3.Not a drop to drink
+4.Two roads diverged
+5.I took the one
+6.Less travelled by
+7.and that made all the difference
+8.Robert Frost

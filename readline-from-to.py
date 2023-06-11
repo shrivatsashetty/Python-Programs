@@ -15,7 +15,7 @@ for i in range(1,m+1):
 
 # 'content' variable can posiibly be unbound i.e for loop could run zero times
 
-##########old version of this code ###############
+########## old version of this code ###############
  
 # n = int(input("Enter start line:")) 
 # m = int(input("Enter end line:"))
