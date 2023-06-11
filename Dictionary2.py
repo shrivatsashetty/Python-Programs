@@ -8,6 +8,10 @@ print(marks)
 marks.update({"Biology":89})
 print(marks)
 
+extra_ciriculars = {'Sport' : 95, 'NCC' : "Navy"}
+
+marks.update(extra_ciriculars)
+print(marks)
 
 for key,value in marks.items():
     print(f"Score in {key} is {value}") 
