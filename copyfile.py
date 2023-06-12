@@ -2,7 +2,7 @@ f1 = open('scource.txt','r+')
 
 content = f1.readlines()
 
-f2 = open('destination.txt','a+')
+f2 = open('destination.txt','w+')
 
 
 for lines in content:
