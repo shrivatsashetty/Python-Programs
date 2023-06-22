@@ -1,3 +1,5 @@
+# different ways to import a module
+
 # from module1 import add
 
 # print(add(4,5))

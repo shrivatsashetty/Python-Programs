@@ -1,3 +1,5 @@
 names=["Anand","Mohan","Sameer","Brendon","Mike","Jeevan"]
 for person in names :
-    if pe
+    if person == "Brendon":
+    	break
+    print(person)
