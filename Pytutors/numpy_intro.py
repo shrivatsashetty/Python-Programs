@@ -17,16 +17,16 @@ print(decimals.dtype) # float64
 letters = np.array("R,V,C,E")
 print(letters)
 print(type(letters))
-print(letters.dtype)
+print(letters.dtype) # <U7
 
-mynums = np.array(range(2,14,3))
+mynums = np.array(range(2,14,3)) # [ 2  5  8 11]
 print(mynums)
 print(mynums.dtype) # int64
 
 rngnums = np.array(range(20,4,-4)) # [20 16 12  8]
 print(rngnums)
 
-setarray = np.array({2,"hi",4,6})
-print(setarray)
-print(type(setarray))
-print(setarray.dtype)
+setsarray = np.array({2,"hi",4,6})
+print(setsarray)
+print(type(setsarray))
+print(setsarray.dtype)
