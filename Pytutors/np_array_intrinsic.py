@@ -17,3 +17,10 @@ print(rngreverse) # [15 12  9  6]
 # linear space method
 spacedarray = np.linspace(3,10,9)
 print(spacedarray)
+
+emp = np.empty((3,2),dtype=int) # creates a 3 X 2 empty array 
+print(emp) 
+
+emp[0,0] = 6
+print(emp)
+print(type(emp))
