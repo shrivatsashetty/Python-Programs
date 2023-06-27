@@ -18,9 +18,21 @@ print(rngreverse) # [15 12  9  6]
 spacedarray = np.linspace(3,10,9)
 print(spacedarray)
 
-emp = np.empty((3,2),dtype=int) # creates a 3 X 2 empty array 
+emp = np.empty((3,2),dtype=int) # creates a 3 X 2 unitialised array 
 print(emp) 
 
 emp[0,0] = 6
 print(emp)
-print(type(emp))
+
+myarray = np.array([4,3,9]) # 1-Dimensional array
+print(myarray.dtype) # int64
+print(myarray.ndim)  # 1
+print(myarray.size)  # 3
+print(myarray.shape) # (3,)
+alikearray = np.empty_like(myarray)
+print(alikearray)
+
+print("\ncreating an identity matrix")
+ideamatrix = np.identity(4) # 4 x 4 identity matrix
+print(ideamatrix)
+print(ideamatrix.shape) # (4, 4)
