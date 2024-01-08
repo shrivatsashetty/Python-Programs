@@ -44,7 +44,7 @@ print(str[-3])# E
 print(str[:])# APNA COLLEGE
 print(str[3:])# A COLLEGE
 print(str[:6])# APNA C
-print(str[-12:-1:-5])
+print(str[-1:-12:-5])
 
 # membership test
 print("APNA" in str)# True
