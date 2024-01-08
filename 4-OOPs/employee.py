@@ -11,7 +11,7 @@ class Employee:
     def info(self):
         print(self.name,"is an employee whose anual income is",self.salary)
 
-naveen=Employee() #indicates,variable "naveen" is an object coming under employee class 
+naveen=Employee() #indicates,variable "naveen" is an object coming under Employee class 
 naveen.name="naveen"
 naveen.salary=float(input("How much would u salary naveen anually:"))
 naveen.native="Mangaluru"

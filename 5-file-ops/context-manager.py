@@ -11,4 +11,4 @@ try:
         print(content)
 
 except Exception as e:
-    print("Error",e)
+    print("An Error occoured:",e)

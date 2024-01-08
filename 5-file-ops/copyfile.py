@@ -1,6 +1,6 @@
 f1 = open('scource.txt','r+')
 
-content = f1.readlines()
+content = f1.readlines() # reads each line one by one and appends ecah line to a list
 
 f2 = open('destination.txt','w+')
 
