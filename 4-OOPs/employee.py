@@ -3,7 +3,7 @@
 #when we define a class we also set default values for each attribute
 #consider a class called employee,all people(objects) having a job come under this class and every one of them have certiain common set of character(attributes)
 
-class employee: 
+class Employee: 
     name="something"
     age=25
     salary=4.5
@@ -11,7 +11,7 @@ class employee:
     def info(self):
         print(self.name,"is an employee whose anual income is",self.salary)
 
-naveen=employee() #indicates,variable "naveen" is an object coming under employee class 
+naveen=Employee() #indicates,variable "naveen" is an object coming under employee class 
 naveen.name="naveen"
 naveen.salary=float(input("How much would u salary naveen anually:"))
 naveen.native="Mangaluru"
